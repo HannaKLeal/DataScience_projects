@@ -1,4 +1,4 @@
-# Data Mining  from a E-commerce site
+# Data Mining from the E-commerce site
 
 Computer Systems -> Input Devices -> VR Headsets
 https://www.newegg.com/VR-Headsets/SubCategory/ID-3629
