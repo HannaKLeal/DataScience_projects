@@ -2,30 +2,29 @@
 
 Computer Systems -> Input Devices -> VR Headsets
 https://www.newegg.com/VR-Headsets/SubCategory/ID-3629
-https://www.newegg.com/VR-Headsets/SubCategory/ID-3629/Page-2
-https://www.newegg.com/VR-Headsets/SubCategory/ID-3629/Page-3
 
-# Get the contents of the page we’re looking at by requesting the URL
+
+'''Get the contents of the page we’re looking at by requesting the URL'''
 requests.get()
 
-# Get the response
+''' Get the response'''
 response.status_code
 
-# Variable 'page' is created to store the request.get action
+''' Variable 'page' is created to store the request.get action
 response.content
 
-# Parse html
+''' Parse html
 BeautifulSoup(page, 'html.parser')
 
-# time.sleep(0.5)
+''' time.sleep(0.5)
  function from Python’s time module will control the loop’s rate
  by pausing the execution of the loop for a specified amount of seconds.
 
-# sleep(randint())
+''' sleep(randint())
  function from Python’s random module will vary the amount
  of waiting time between requests — within the specified interval
 
-# Handling exceptions
+''' Handling exceptions
 >>> try:
 ...     this_fails()
 ... except ZeroDivisionError as err: #type of error
@@ -33,9 +32,9 @@ BeautifulSoup(page, 'html.parser')
 ...
 Handling run-time error: division by zero
 
-# select finds multiple instances and returns a list
-# the lens og the list = 1
-# it means in every list only one element and its index = [0]
+''' select finds multiple instances and returns a list
+''' the lens og the list = 1
+''' it means in every list only one element and its index = [0]
 container.select('.item-title')[0]
 
 
